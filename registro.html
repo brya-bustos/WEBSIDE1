@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilos.css" media="only screen and (max-width: 1700px)">
+    <title>Liga NYSL</title>
+</head>
+<body>
+    
+          
+         <h1 align="center"><p> Formulario de <br>
+            inscripción</p></h1><br>
+            <div >
+                <div id="menu">
+                    <ul>
+                   <li><a href="index.html" >Home</a></li><br> <br>
+                   <li><a href="acerca.html" >About</a></li> <br> <br>
+                   <li><a href="contacto.html" >Contact</a></li> <br> <br>
+                   <li><a href="calendario.html">Calendario</a></li><br><br>
+                   <li><a href="reglasypolitica.html">Reglas</a></li><br><br>
+                   <li><a href="registro.html">Registrar</a></li>
+                   </ul>
+              </div >
+    <form action="showdata.html" class="form">
+        <label for="nombre">Nombre del jugador:</label>
+        <input type="text" placeholder="Escriba nombre" maxlength="22"name="nombre"id="nombre" required>
+        <br>
+        <br>
+        <label for="apellido">Apellido:</label>
+        <input type="text" placeholder="Escriba Apellido" maxlength="22" name="apellido" id="apellido" required>
+        <br><br>
+
+    </form>
+
+    <form class="form">
+        <label for="direccion">Dirección:</label>
+        <input type="text" placeholder="" maxlength="30" name="direccion" id="direccion" required>
+        <br><br>
+
+    </form>
+
+    <form class="form">
+        <label for="ciudad">Ciudad:</label>
+        <input type="text" placeholder="" maxlength="22" name="ciudad" id="ciudad" required>
+        <label for="codigo">Código Postal:</label>
+        <input type="text" placeholder="" maxlength="22" name="codigo" id="codigo" required>
+        <br><br>
+
+    </form>
+
+    <form class="form">
+        <label for="nacimiento">Fecha de nacimiento:</label>
+        <input type="date" name="nacimiento" id="nacimiento"required >
+        <label for="genero">Género:</label>
+        <input type="checkbox" name="hombre" required>Hombre
+        <input type="checkbox" name="mujer"  required>Mujer
+        <br><br>
+    </form>
+
+    <form class="form" >
+        <label for="">Grado:</label>
+        <input type="checkbox" required>preescolar
+        <input type="checkbox" required>1°
+        <input type="checkbox" required>2°
+        <input type="checkbox" required>3°
+        <input type="checkbox" required>4°
+        <input type="checkbox" required>5°
+    </form> <br>
+    
+    <article>
+            <strong><p>¿De que escuela vives mas cerca?</p></strong><br>
+            <strong><p>Escuela más cercana:</p></strong> <br>
+
+            <form>
+                <input type="checkbox" class="casilla" required>AJ Katzenmaier
+                <input type="checkbox"required>Marjorie P Hart
+                <br> <br>
+            </form>
+
+            <form>
+                <input type="checkbox"required>Greenbay
+                <input type="checkbox"required>North Elementary
+                <br> <br>
+            </form>
+        
+            <form>
+                <input type="checkbox"required>Howard A Yeager
+                <input type="checkbox"required>South Elementary
+            </form> <br>
+    </article>
+
+    <article>   
+        <strong><p>¿Qué posición(es) juegas normalmente? (marque todas las que correspondan)</p></strong><br>
+        <form>
+            <input type="checkbox"required>Delantero
+            <input type="checkbox"required>mediocampista
+        </form>
+    
+        <form>
+            <input type="checkbox"required>Portero
+            <input type="checkbox"required>defensa
+            <br><br>
+        </form>
+    
+        <strong><p>Tamaño uniforme:</p></strong><br>
+        <form>        
+            <input type="checkbox"required>Niño P
+            <input type="checkbox"required>Mediano            
+        </form>    
+        <form>           
+            <input type="checkbox"required>Niño M
+            <input type="checkbox"required>Grande            
+        </form>    
+        <form>
+            <input type="checkbox"required>Niño G
+            <input type="checkbox"required>Extra-Grande
+        </form>    
+        <form>            
+            <input type="checkbox"required>Pequeño
+        </form><br>
+    </article>
+    <article>
+       <strong><p>Permiso para jugar</p></strong> 
+
+       <p>Yo, el padre o tutor del solicitante de registro menor, estoy de acuerdo en que el solicitante de registro y <br>
+        yo acataremos todas las reglas de la Northside Youth Soccer League (NYSL). Al reconocer la posibilidad <br>
+        de lesiones físicas asociadas al fútbol y en consideración a la"Liga" que acepta al solicitante de registro <br>
+        para sus programas y actividades de fútbol, Por la presente libero y descargo a NYSL, sus empleados y <br>
+        personal asociado y voluntarios, incluyendo las instalaciones utilizadas para prácticas y juegos, contra <br>
+        cualquier reclamo por o en nombre del solicitante de registro como resultado de la participación del <br>
+        solicitante del programa a o en el transporte desde o hacia las actividades patrocinadas por NYSL. <br>
+        <br>
+        Al firmar a continuación, acuerdo y autorizo lo anterior. Además, al firmar a continuación, reconozco <br>
+        que he leído la política de cancelación y acepto sus términos.</p>
+        <br>
+
+        <p>Firma Padre/Tutor: ___________________________________     Fecha:________________________________</p> 
+        <br>
+        <form action="showdata.html" method="post">
+            <input type="submit" style="width:100px; height:25px" re> 
+        </form>
+    </article>  
+
+
+    
+
+    
+</body>
+</html>
